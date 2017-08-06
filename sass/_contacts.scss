@@ -1,0 +1,96 @@
+.contact-info {
+  padding-bottom: 63px;
+  p {
+    margin-bottom: 63px;
+  }
+  .fa {
+    font-size: 30px;
+    color: $yellow-color;
+  }
+  address {
+    font: {
+      size: 20px;
+      weight: 300;
+    }
+    color: $address-color;
+    margin-bottom: 0;
+    a {
+      color: $address-color;
+      text-decoration: none;
+    }
+    abbr {
+      text-decoration: none;
+      color: $address-color;
+      border-bottom: none;
+    }
+  }
+}
+.send-message {
+  background-color: $subsection-bg;
+  color: $white-color;
+  padding: 63px 0;
+  h2 {
+    color: $white-color;
+  }
+}
+.contact-form {
+  margin-top: 60px;
+  .btn-success {
+    color: #000000;
+    padding: 15px 41px;
+    &:hover {
+      color: $yellow-color;
+    }
+  }
+}
+
+.form-group {
+  margin-bottom: 28px;
+  input {
+    padding: 20px;
+    height: 59px;
+  }
+  input,
+  textarea {
+    background-color: $subsection-bg;
+    border: 1px solid $white-color;
+    border-radius: 0;
+    font-size: 15px;
+  }
+}
+
+.form-control {
+  &::-webkit-input-placeholder {
+    color: $white-color;
+    font: {
+      weight: 300;
+      size: 15px;
+    }
+  }
+  &::-moz-placeholder {
+    color: $white-color;
+    opacity: 1;
+    font: {
+      weight: 300;
+      size: 15px;
+    }
+  }
+  &:-ms-input-placeholder {
+    color: $white-color;
+    font: {
+      weight: 300;
+      size: 15px;
+    }
+  }
+  &:-moz-placeholder {
+    color: $white-color;
+    font: {
+      weight: 300;
+      size: 15px;
+    }
+  }
+}
+label.error {
+  display: none !important;
+  margin: 0;
+}

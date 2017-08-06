@@ -1,0 +1,42 @@
+.navbar {
+  background-color: $bg-transparent;
+  margin-bottom: 0;
+  border-bottom: none;
+  li a {
+    padding: 40px 20px;
+    @media screen and (max-width: $screen-xs-max) {
+      padding: 10px 15px;
+    }
+  }
+}
+.navbar-brand {
+  height: 100px;
+}
+.navbar-inverse .navbar-nav li a {
+  color: $white-color;
+  position: relative;
+}
+.navbar-inverse .navbar-nav li a:before {
+  position: absolute;
+  content: '';
+  width: 5px;
+  height: 5px;
+  background-color: $yellow-color;
+  top: 47px;
+  right: -3px;
+  @media screen and (max-width: $screen-xs-max) {
+    display: none;
+  }
+}
+.navbar-inverse .navbar-nav li:last-child a::before {
+  display: none;
+}
+.navbar-inverse .navbar-nav .active a {
+  background-color: transparent;
+  color: $yellow-color;
+}
+.navbar-inverse .navbar-nav li a:hover,
+.navbar-inverse .navbar-nav .active a:hover {
+  background: transparent;
+  transition: .5s ease;
+}

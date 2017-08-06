@@ -1,0 +1,14 @@
+.btn-success {
+  @include btn-yellow();
+  color: $white-color;
+  padding: 15px 48px;
+  &:hover {
+    background-color: #131316;
+    color: $yellow-color;
+    transition: .5s linear;
+  }
+  &:active {
+    outline: none;
+    border: none;
+  }
+}

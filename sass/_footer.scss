@@ -1,0 +1,29 @@
+.main-footer {
+  background-color: #131316;
+  padding: 25px 0;
+  color: $white-color;
+  p {
+    margin-bottom: 25px;
+  }
+  span {
+    color: $yellow-color;
+  }
+}
+.social-icon-link {
+  .fa {
+    color: $white-color;
+    font-size: 18px;
+    &:hover {
+      color: $yellow-color;
+    }
+    &-facebook-f {
+      margin-right: 23px;
+    }
+    &-dribbble {
+      margin-right: 18px;
+    }
+    &-twitter {
+      margin-right: 15px;
+    }
+  }
+}

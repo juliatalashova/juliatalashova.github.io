@@ -1,0 +1,12 @@
+@mixin btn-yellow() {
+  background-color: $yellow-color;
+  border-radius: 0;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+}
+@mixin section-header() {
+  color: #000000;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
